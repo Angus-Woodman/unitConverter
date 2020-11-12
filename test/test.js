@@ -12,6 +12,6 @@ describe('convert unit', () => {
   });
 
   it('should return an average of x frequencies', () => {
-      expect(convert.converter()).to.equal('testing');
+      expect(convert.converter(73, 'cm', 'm')).to.equal('0.73m');
   })
 });
