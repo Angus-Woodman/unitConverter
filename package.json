@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Measurement Unit Converter",
   "main": "./lib/convert.js",
-    "bin": {
-        "unitConvert": "./bin/index.js"
-    },
+  "bin": {
+    "unitConvert": "./bin/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc --reporter=text-summary mocha --reporter=nyan --bail"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/Angus-Woodman/unitConverter#readme",
   "dependencies": {
-    "colors": "^1.4.0"
+    "chai": "^4.2.0",
+    "colors": "^1.4.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "rewire": "^5.0.0"
   }
 }
