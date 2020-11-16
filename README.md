@@ -13,12 +13,12 @@ Users can
 
 ## Installation & Usage
 
-### Global Installation
-
-### Local Installation
-
-
-### Usage within other apps
+- Fork and clone the repo
+- move into unitConverter folder
+- run npm install
+- run node ./bin/index.js to test functionality locally
+- run npm install -g ./
+- run unitConvert to test global functionality
 
 ## Supported Units
 
